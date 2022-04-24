@@ -177,11 +177,11 @@ STRAWBERRY_CLASSES = ("Angular Leafspot", "Powdery Mildew Leaf", "Powdery Mildew
 
 strawberry_disease_dataset = dataset_base.copy({
     'name': 'Strawberry Disease',
-    'train_images': '../../train',
-    'valid_images': '../../test',
+    'train_images': './train',
+    'valid_images': './test',
     
-    'train_info': '../../train_annotation',
-    'valid_info': '../../test_annotation',
+    'train_info': './train_annotation/dataset.json',
+    'valid_info': './test_annotation/dataset.json',
 
     'class_names': STRAWBERRY_CLASSES,
 })
