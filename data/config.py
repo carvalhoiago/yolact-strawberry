@@ -184,6 +184,7 @@ strawberry_disease_dataset = dataset_base.copy({
     'valid_info': './test_annotation/dataset.json',
 
     'class_names': STRAWBERRY_CLASSES,
+    'label_map': { 0:  1, 1:  2, 2:  3, 3: 4, 4: 5, 5: 6, 6: 7}
 })
 
 
